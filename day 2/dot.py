@@ -1,0 +1,11 @@
+import numpy as np
+a=np.array([1,2,3])
+b=np.array([4,5,6])
+dot=np.dot(a,b)
+print(dot)
+c=np.array([[1,2,3],[5,6,7]])
+d=np.array([[1,2,3],[8,9,7],[5,7,8]])
+mat_mul=np.matmul(c,d)
+print(mat_mul)
+mat=np.dot(c,d)
+print(mat)
